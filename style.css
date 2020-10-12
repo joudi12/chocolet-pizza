@@ -1,3 +1,16 @@
+
+header{
+    margin-left: 90px;
+    margin-right: 90px;
+}
+main{
+    margin-left: 90px;
+    margin-right: 90px;
+}
+footer{
+    margin-left: 90px;
+    margin-right: 90px;
+}
 .icon li{
     display: inline-block;
      float: right;
@@ -77,13 +90,15 @@ ul{
     display: inline-block;
     text-align: center;
     list-style: none;
-    margin-left: 15%;
+    margin-left: 10%;
  margin-top: 10%;
  list-style-position: inside;
 }
 .ullist li {
     text-align: left;
 }
+
+
 #hprofile{
     display: inline-block;
 }
