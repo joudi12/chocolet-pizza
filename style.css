@@ -1,15 +1,15 @@
 
 header{
-    margin-left: 90px;
-    margin-right: 90px;
+    margin-left:25%;
+    margin-right: 25%;
 }
 main{
-    margin-left: 90px;
-    margin-right: 90px;
+    margin-left: 25%;
+    margin-right: 25%;
 }
 footer{
-    margin-left: 90px;
-    margin-right: 90px;
+    margin-left: 25%;
+    margin-right: 25%;
 }
 .icon li{
     display: inline-block;
@@ -21,7 +21,7 @@ footer{
     margin-left: 3px;
 }
 
-#p2, #p3, #p4, #p5, #p6 {
+#p2, #p3, #p4, #p5 {
     display: inline;
 }
 
@@ -56,15 +56,28 @@ footer{
 
 #p6{
     font-family: 'Roboto', sans-serif;
+     width: 65%;
     color: #8c8e88;
     font-size: small;
+    display: inline-block;
+   
 }
 #sec{
-    background-image: url('img/hr-img.png');
-    height: 20px;
-    margin-bottom: 3%;
-    margin-top: 3%;
+    background: url('img /hr-img.png');
+    height: 10px;
+    margin-bottom: 9%;
+    margin-top: 5%;
     width: 100%;
+    /* border: 1px solid red; */
+
+}
+#sec1{
+    background: url('img /hr-img.png');
+    height: 10px;
+    margin-bottom: 3%;
+    margin-top: 5%;
+    width: 100%;
+    /* border: 1px solid red; */
 
 }
 ul{
@@ -83,8 +96,7 @@ ul{
     background-image: url('img /list-bg.png');
     background-repeat: no-repeat;
     min-height: 300px;
-    margin-left: 25%;
-    margin-right: 25%;
+   width: 100%;
 }
 .ullist{
     display: inline-block;
@@ -99,8 +111,12 @@ ul{
 }
 
 
-#hprofile{
+#profile{
     display: inline-block;
+    width: 100%;
+   
+    
+ 
 }
 
 #van{
@@ -109,6 +125,7 @@ ul{
 }
 
 #but{
+
 
     float: right;
     background-color: #bc7058;
